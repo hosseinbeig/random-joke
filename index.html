@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+        crossorigin="anonymous">
+    <title>Random Jokes</title>
+</head>
+
+<body class="pt-5 bg-secondary">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <div class="card card-body text-center mt-5 bg-light">
+                    <h2 class="pt-5 text-primary">Chuck Norris Random Jokes</h2><hr>
+                    <form>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <button class="btn btn-outline-primary" id="get-jokes" type="button">Get Jokes</button>
+                            </div>
+                            <input type="number" class="form-control" id="number" placeholder="Insert The Number Of Jokes">
+                        </div>
+                    </form>
+                    <ul class="jokes text-left"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/app.js"></script>
+</body>
+
+</html>
